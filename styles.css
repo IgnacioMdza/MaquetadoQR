@@ -13,6 +13,7 @@ body {
     border-radius: 20px;
     display: inline-block;
     padding: 16px;
+    max-width: 310px;
     overflow: hidden;
 }
 
@@ -39,5 +40,10 @@ body {
     text-align: center;
     color: gray
 }
+
+/* 1 {
+    white-space: pre-line;
+} esta opción permite generar saltos de linea dentro de un parrafo
+pero debe evitarse ya que afecta al responsive */
 
 /* Consejo = utilizar propiedades en orden alfabetico */
